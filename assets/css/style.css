@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.countdown{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-top:7%;
+}
+.countdown h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding: 60px 0px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #622dc5de;
+    border-radius: 20px;
+}
+.time{
+   /* width:500px;*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center; 
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.square{
+    width: min-content;
+    padding: 10px;
+    background-color: #9470d6da;
+    text-align: center;
+    border-radius: 10px;
+}.square span{
+    font-size: 35px;
+}
+.square p{
+    font-size: 18px;
+    font-weight: 500;
+}
+@media (max-width:820px){
+.countdown{
+    margin-right: 60px;
+
+}
+.countdown h1{
+    font-size: 35px;
+}
+}
